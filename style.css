@@ -224,11 +224,13 @@ body {
   letter-spacing: 0.03em;
 }
 /* footer */
-footer {
+.page-footer {
   background-color: var(--color-background);
   font-style: normal;
   line-height: calc(24 / 14);
   color: var(--color-secondary);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   color: var(--color-secondary);
