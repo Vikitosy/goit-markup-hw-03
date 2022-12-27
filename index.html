@@ -63,11 +63,10 @@
     <main>
       <!-- hero section -->
       <section class="hero-section section">
-        <h1 class="hero-title">
-          Ефективні рішення для <br />
-          вашого бізнесу
-        </h1>
-        <button class="primary-btn" type="button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="primary-btn" type="button">Замовити послугу</button>
+        </div>
       </section>
       <!-- benefit section -->
       <section class="benefit-section section">
@@ -116,14 +115,14 @@
                 width="370"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/check_phone.jpg"
                 alt="Зображення налаштування мобільної версії"
                 width="370"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/check_color.jpg"
                 alt="Зображення підбору колористичної схеми"
@@ -144,8 +143,10 @@
                 alt="Фото Ігора Дем'яненка"
                 width="270"
               />
-              <h3 class="teams-person">Ігор Дем'яненко</h3>
-              <p class="teams-career" lang="en">Product Designer</p>
+              <div class="teams-description">
+                <h3 class="teams-person">Ігор Дем'яненко</h3>
+                <p class="teams-career" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="teams-card">
               <img
@@ -153,8 +154,10 @@
                 alt="Фото Ольги Рєпіної"
                 width="270"
               />
-              <h3 class="teams-person">Ольга Рєпіна</h3>
-              <p class="teams-career" lang="en">Frontend Developer</p>
+              <div class="teams-description">
+                <h3 class="teams-person">Ольга Рєпіна</h3>
+                <p class="teams-career" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="teams-card">
               <img
@@ -162,8 +165,10 @@
                 alt="Фото Миколи Тарасова"
                 width="270"
               />
-              <h3 class="teams-person">Микола Тарасов</h3>
-              <p class="teams-career" lang="en">Marketing</p>
+              <div class="teams-description">
+                <h3 class="teams-person">Микола Тарасов</h3>
+                <p class="teams-career" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="teams-card">
               <img
@@ -171,8 +176,10 @@
                 alt="Фото Михайла Єрмакова"
                 width="270"
               />
-              <h3 class="teams-person">Михайло Єрмаков</h3>
-              <p class="teams-career" lang="en">UI Designer</p>
+              <div class="teams-description">
+                <h3 class="teams-person">Михайло Єрмаков</h3>
+                <p class="teams-career" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -186,7 +193,7 @@
         >
         <address>
           <ul class="list">
-            <li>
+            <li class="address-item" >
               <a
                 href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.426981454572825%2C30.538889775929036&z=18"
                 class="contacts-office link"
@@ -195,12 +202,12 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
+            <li class="address-item" >
               <a href="mailto:info@devstudio.com" class="contacts-footer link"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-item" >
               <a href="tel:+380961111111" class="contacts-footer link"
                 >+38 096 111 11 11</a
               >
